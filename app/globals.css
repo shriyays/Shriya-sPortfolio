@@ -651,4 +651,16 @@ footer { text-align: center; padding: 2.5rem; border-top: 1.5px solid rgba(155,1
   .jitem { min-width: 130px; padding: 0 .4rem; }
   .jrole { font-size: .82rem; }
   .jplace { font-size: .7rem; }
+
+  /* Hero mobile */
+  .hero-inner { flex-direction: column; align-items: center; gap: 2rem; padding: 2rem 1.2rem; text-align: center; }
+  .hero-photo-col { width: 100%; display: flex; justify-content: center; }
+  .hero-text-col { width: 100%; text-align: center; }
+  .avatar-wrap { width: 220px !important; height: 220px !important; }
+  .avatar-circle { width: 220px !important; height: 220px !important; }
+  .hero-name { font-size: clamp(1.4rem, 7vw, 2rem) !important; white-space: normal !important; }
+  .hero-title { white-space: normal !important; font-size: .85rem !important; }
+  .hero-location { align-self: center; justify-content: center; }
+  .hero-btns { justify-content: center; flex-wrap: wrap; }
+  .scroll-hint { display: none; }
 }
