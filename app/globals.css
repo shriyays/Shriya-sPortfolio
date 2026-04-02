@@ -652,7 +652,7 @@ body.is-dark::before {
 .connect-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(155,127,212,.18); background: rgba(255,255,255,.9); }
 .connect-icon { font-size: 1.8rem; flex-shrink: 0; }
 .connect-label { display: flex; flex-direction: column; gap: .2rem; }
-.connect-title { font-size: 1rem; font-weight: 700; color: var(--txt); }
+.connect-title { font-size: 1.05rem; font-weight: 700; color: var(--txt); font-family: var(--font-playfair), 'Playfair Display', serif; letter-spacing: .01em; }
 .connect-sub { font-size: .82rem; color: var(--lilac); font-weight: 500; }
 
 footer { text-align: center; padding: 2.5rem; border-top: 1.5px solid rgba(155,127,212,.18); color: var(--dim); font-size: .82rem; position: relative; z-index: 1; }
