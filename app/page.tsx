@@ -622,39 +622,28 @@ export default function Portfolio() {
             <div className="eyebrow">say hello</div>
             <h2 className="sec-title">let&apos;s connect 💌</h2>
           </div>
-          <div className="contact-grid">
-            <div className="gc cinfo" ref={addGcRef}>
-              <h3>I&apos;d love to hear from you</h3>
-              <p>Looking for roles in backend engineering, full-stack, cloud, and AI systems. Have an opportunity or just want to chat? My inbox is open 🌸</p>
-              <a className="clink" href="mailto:yarrapureddysarath.s@northeastern.edu"><span>✉️</span><span>yarrapureddysarath.s@northeastern.edu</span></a>
-              <a className="clink" href="https://www.linkedin.com/in/shriyays/" target="_blank" rel="noopener noreferrer"><span>💼</span><span>linkedin.com/in/shriyays</span></a>
-              <a className="clink" href="https://github.com/shriyays" target="_blank" rel="noopener noreferrer"><span>🐙</span><span>github.com/shriyays</span></a>
-            </div>
-            <div className="gc cform" ref={addGcRef}>
-              <form onSubmit={handleSubmit}>
-                <div className="field">
-                  <label htmlFor="name">your name</label>
-                  <input id="name" name="name" type="text" placeholder="Jane Smith" required />
-                </div>
-                <div className="field">
-                  <label htmlFor="email">your email</label>
-                  <input id="email" name="email" type="email" placeholder="jane@company.com" required />
-                </div>
-                <div className="field">
-                  <label htmlFor="message">message</label>
-                  <textarea id="message" name="message" placeholder="Hi Shriya, I'd love to chat about..." required />
-                </div>
-                <button
-                  className="btn btn-primary"
-                  type="submit"
-                  disabled={sending}
-                  style={{ width: '100%', justifyContent: 'center', border: 'none' }}
-                >
-                  {sending ? 'sending…' : 'send message ✦'}
-                </button>
-                {formMsg && <div id="formMsg">{formMsg}</div>}
-              </form>
-            </div>
+          <div className="connect-btns">
+            <a className="connect-btn" href="mailto:yarrapureddysarath.s@northeastern.edu">
+              <span className="connect-icon">✉️</span>
+              <span className="connect-label">
+                <span className="connect-title">Email</span>
+                <span className="connect-sub">yarrapureddysarath.s@northeastern.edu</span>
+              </span>
+            </a>
+            <a className="connect-btn" href="https://www.linkedin.com/in/shriyays/" target="_blank" rel="noopener noreferrer">
+              <span className="connect-icon">💼</span>
+              <span className="connect-label">
+                <span className="connect-title">LinkedIn</span>
+                <span className="connect-sub">linkedin.com/in/shriyays</span>
+              </span>
+            </a>
+            <a className="connect-btn" href="https://github.com/shriyays" target="_blank" rel="noopener noreferrer">
+              <span className="connect-icon">🐙</span>
+              <span className="connect-label">
+                <span className="connect-title">GitHub</span>
+                <span className="connect-sub">github.com/shriyays</span>
+              </span>
+            </a>
           </div>
         </div>
       </div>

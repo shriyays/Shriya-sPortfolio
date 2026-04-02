@@ -638,6 +638,23 @@ body.is-dark::before {
 .field textarea { resize: vertical; min-height: 110px; }
 #formMsg { font-size: .83rem; color: var(--lilac); margin-top: .7rem; }
 
+.connect-btns { display: flex; flex-direction: column; gap: 1.2rem; max-width: 600px; margin: 2.5rem auto 0; }
+.connect-btn {
+  display: flex; align-items: center; gap: 1.4rem;
+  padding: 1.4rem 2rem;
+  background: rgba(255,255,255,.65);
+  border: 1.5px solid rgba(155,127,212,.25);
+  border-radius: 18px;
+  text-decoration: none; color: var(--txt);
+  transition: transform .2s, box-shadow .2s, background .2s;
+  box-shadow: 0 2px 12px rgba(155,127,212,.08);
+}
+.connect-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(155,127,212,.18); background: rgba(255,255,255,.9); }
+.connect-icon { font-size: 1.8rem; flex-shrink: 0; }
+.connect-label { display: flex; flex-direction: column; gap: .2rem; }
+.connect-title { font-size: 1rem; font-weight: 700; color: var(--txt); }
+.connect-sub { font-size: .82rem; color: var(--dim); }
+
 footer { text-align: center; padding: 2.5rem; border-top: 1.5px solid rgba(155,127,212,.18); color: var(--dim); font-size: .82rem; position: relative; z-index: 1; }
 .heart { color: var(--rose); animation: hb 1.5s ease-in-out infinite; display: inline-block; }
 @keyframes hb { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.3); } }
