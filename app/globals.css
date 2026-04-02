@@ -653,7 +653,7 @@ body.is-dark::before {
 .connect-icon { font-size: 1.8rem; flex-shrink: 0; }
 .connect-label { display: flex; flex-direction: column; gap: .2rem; }
 .connect-title { font-size: 1rem; font-weight: 700; color: var(--txt); }
-.connect-sub { font-size: .82rem; color: var(--dim); }
+.connect-sub { font-size: .82rem; color: var(--lilac); font-weight: 500; }
 
 footer { text-align: center; padding: 2.5rem; border-top: 1.5px solid rgba(155,127,212,.18); color: var(--dim); font-size: .82rem; position: relative; z-index: 1; }
 .heart { color: var(--rose); animation: hb 1.5s ease-in-out infinite; display: inline-block; }
